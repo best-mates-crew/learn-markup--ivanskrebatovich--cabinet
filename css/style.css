@@ -7,7 +7,7 @@ body {
     line-height: 22px;
     color: #212121;
     font-weight: 400;
-    ;
+    
   }
 
   .sidebar {
@@ -19,7 +19,33 @@ body {
       display: flex;
       width: 246px;
       height: 72px;
+      border-bottom: #393A42 solid 1px;
+      font-size: 16px;
   }
+  
+  .side-logo {
+    display:flex;
+    margin-top: 13.7px;
+    margin-left: 14.8px;
+    width: 44.5px;
+    height: 44.5px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    
+  }
+  .side-logo-img {
+    margin:auto;
+}
+    .side-icon {
+        margin-top: 27px;
+        margin-left: 19px;
+    }
+
+  .side-name {
+      margin-top: 26.5px;
+      margin-left: 9.6px;
+  }
+  
   .side-body {
      width: 246px;
      height: 648px;
