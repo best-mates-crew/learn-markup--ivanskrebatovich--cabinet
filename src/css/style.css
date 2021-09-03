@@ -47,10 +47,20 @@ body {
   }
   
   .side-body {
+    display: flex;
+    flex-direction: column;
      width: 246px;
      height: 648px;
      font-size: 15px;
-       
+  }
+  .upper-body-company{
+      width: 174px;
+      height: 13px;
+      border: solid 1px chartreuse;
+  }
+  .company-link {
+      margin: auto;
+      width: 246px;
   }
   .side-body a {
       color:#778192;
