@@ -50,7 +50,12 @@ body {
      width: 246px;
      height: 648px;
      font-size: 15px;
-     
+       
+  }
+  .side-body a {
+      color:#778192;
+      text-decoration: none;
+    
   }
   .side-footer {
       width: 246px;
