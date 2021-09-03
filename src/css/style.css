@@ -54,13 +54,21 @@ body {
      font-size: 15px;
   }
   .upper-body-company{
+      margin: 24px 40px 0 32px ;
       width: 174px;
       height: 13px;
-      border: solid 1px chartreuse;
+      
   }
-  .company-link {
-      margin: auto;
-      width: 246px;
+  .side-logo-img {
+      margin: 24px 16px 0 33px;
+      width: 14px;
+      height: 14px;
+  }
+  .company-link{
+      margin: 21px 0 0 0;
+      width: 150px;
+      height: 22px;
+      border: chartreuse solid 1px;
   }
   .side-body a {
       color:#778192;
