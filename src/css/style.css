@@ -9,6 +9,12 @@ body {
     font-weight: 400;
     
   }
+  main {
+    
+    width: 1120px;
+    background-color: #E5E5E5;
+    color: #25262D;
+}
   .side-footer {
     display: flex;
     width: 246px;
@@ -63,6 +69,11 @@ body {
       width: 14px;
       height: 14px;
   }
+  .selected-logo-img {
+    margin: 15px 0 0 16px;
+    width: 14px;
+    height: 14px;
+  }
   .logo-footer {
       margin-left: 32px;
       width: 14px;
@@ -79,11 +90,10 @@ body {
       color: white;
   }
   .selected-link {
-      margin: 0 16px 0 16px;
+      margin: 10px 13px 0 16px;
       width: 214px;
       height: 48px;
-      border: white solid 1px;
-      
+      border-radius: 4px;
       background-color: #393A42;
   }
 
@@ -107,13 +117,5 @@ body {
   .rollUp {
       margin: 13px 0 0 16px;
       width:150px;
-      height: 22px;
-      
+      height: 22px; 
   }
-
-  main {
-    
-    width: 1120px;
-    background-color: #E5E5E5;
-    color: #25262D;
-}
