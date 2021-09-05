@@ -63,6 +63,8 @@ body {
   .topic {
       color: #B9C1CE;
       font-size: 11px;
+      font-style: normal;
+      font-weight: normal;
   }
   .left-logo {
       margin: 24px 0 0 33px;
@@ -118,4 +120,12 @@ body {
       margin: 13px 0 0 16px;
       width:150px;
       height: 22px; 
+  }
+  .company-rollUp {
+      display: flex;
+  }
+  .icon-angle-down {
+      width: 8px;
+      height: 4.4px;
+      margin: 22px 33px 0 0;
   }
