@@ -116,24 +116,27 @@ body {
   }
   .angle-arrow {
       margin: 30px 27px 0 0;
-      
   }
-  
   .company-rollUp2 {
     display: flex;
-    
-    
-   
-   
 }
 .angle-down-arrow {
     margin: 23px 0 0 6px;
-    padding-right: 10px;
-    
+    padding-right: 10px;  
 }
 .bottom-body-company {
     margin: 15px 0 0 32px;
-   
     width: 174px;
     height: 13px;
+}
+.icon {
+    fill: #778192;
+}
+
+.angle-right {
+    width: 8px;
+    height: 6px;
+    fill: #B9C1CE;
+    margin: 30px 16px 0 6px;
+    padding-right: 10px;
 }
