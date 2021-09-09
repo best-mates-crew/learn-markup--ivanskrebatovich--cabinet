@@ -1,127 +1,83 @@
 <!DOCTYPE html>
-<html lang='ru'>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>All checks</title>
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Home page</title>
 </head>
 <body>
     <div class="sidebar">
         <div  class="side-header">
-            <div class="side-logo">Picture</div>
-            <div class="side-name">Name</div>
-            <div class="side-settings">Settings-logo</div>
+            <div class="side-logo">
+                <img class="side-logo-img" src="sidebar/SmartLogo.png" width="30" height="9" alt="logo">
+            </div>
+            <div class="side-name">ТОО «Smart»</div>
+            <div class="side-icon">
+                <a href="#"><img src="sidebar/gear.svg" width="24" height="24" alt="settings"></a>
+            </div>
         </div>
         <div class="side-body">
-            <div>КОМПАНИЯ выпадающий</div>
-            <li><a href="#">Компания</a></li>
-            <li><a href="#">Счета</a></li>
-            <li><a href="#">Торговые точки</a></li>
-            <li><a href="#">Сотрудники</a></li>
-            <li><a href="#">Интеграция</a></li>
-            <li><a href="#">Отчёты и финансы</a></li>
-            <div>ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ выпадающий</div>
-            <li><a href="#">Организации</a></li>
-            <li><a href="#">Доверенные счета</a></li>
-            <li><a href="#">Услуги</a></li>
+            <div class="company-rollUp">
+                <div class="upper-body-company topic">КОМПАНИЯ</div>
+                <a href="#"><svg class="icon angle-right">
+                    <use xlink:href="sidebar/sprite.svg#angle-right"></use>
+                </svg></a>
+                
+            </div>
+            <div>
+                <img class="side-company-img left-logo" src="sidebar/company.svg" width="14" height="14" alt="company">
+                <a class="company-link links" href="#">Компания</a>
+            </div>                             
+            <div class="selected-link">
+                <img class="selected-logo-img left-selected-logo" src="sidebar/bills.svg" width="14" height="14" alt="bills">
+                <a href="#" class="bills links white-link">Счета</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/points.svg" width="14" height="14" alt="points">
+                <a href="#" class="points links">Торговые точки</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/employee.svg" width="14" height="14" alt="employee">
+                <a href="#" class="employee links">Сотрудники</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/integration.svg" width="14" height="14" alt="integration">
+                <a href="#" class="integration links">Интеграция</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/reports.svg" width="14" height="14" alt="reports">
+                <a href="#" class="reports links">Отчёты и финансы</a>
+            </div>
+            <div class="company-rollUp2">
+                <div class="bottom-body-company topic">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</div>
+                <a href="#"><img class="angle-down-arrow" src="sidebar/angle-right.svg" width="8" height="5" alt="arrow-down"></a>
+            </div>
+                
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/organization.svg" width="14" height="14" alt="organisations">
+                <a href="#" class="organisations links">Организации</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/trustBills.svg" width="14" height="14" alt="bills">
+                <a href="#" class="trysted-bills links">Доверенные счета</a>
+            </div>
+            <div>
+                <img class="side-logo-img left-logo" src="sidebar/services.svg" width="14" height="14" alt="services">
+                <a href="#" class="services links">Услуги</a>
+            </div>
+            <div class="icon-company"></div>
         </div>
         <div class="side-footer">
-            <li><a href="#">Свернуть панель</a></li>
+            <a href="#"><img class="side-logo-img logo-footer" src="sidebar/rollUp.svg" width="14" height="14" alt="rollUp"></a>
+            <a href="#" class="rollUp links">Свернуть панель</a>
         </div>   
     </div>
-    <main>
-        <header>
-           <div>Все счета</div> 
-           <div>Выставить счет button</div>
-        </header>
-        <div class="main-header">
-            <li><a href="#">Выставленные</a></li>
-            <li><a href="#">К оплате</a></li>
-            <li><a href="#">История</a></li>
-        </div>
-        <div class="search">
-            <div>Все торговые точки и операции</div>
-            <div>Поиск по номеру счета</div>
-            <div>Фильтры</div>
-            <div>Действия</div>
-
-        </div>
-        <div class="table">
-            <table>
-                <tr>
-                    <td>Номер счета</td>
-                    <td>Время и дата</td>
-                    <td>Торговая точка / Оперция</td>
-                    <td>Сумма</td>
-                    <td>Получено</td>
-                    <td>Статус</td>
-                </tr>
-                <tr>
-                    <td>№32467</td>
-                    <td>11:20 05.01.2019</td>
-                    <td>Smart Лазурный</td>
-                    <td>1500 тг −150 тг</td>
-                    <td>1350 тг</td>
-                    <td>Оплачено</td>
-                </tr>
-                <tr>
-                    <td>№32466</td>
-                    <td>21:18 02.01.2019</td>
-                    <td>Smart Ишим</td>
-                    <td>3 850 тг</td>
-                    <td></td>
-                    <td>Отклонено</td>
-                </tr>
-                <tr>
-                    <td>Вывод</td>
-                    <td>00:00 31.12.2018</td>
-                    <td>−</td>
-                    <td>−16 335 тг</td>
-                    <td></td>
-                    <td>Вывод средств</td>
-                </tr>
-                <tr>
-                    <td>№32467</td>
-                    <td>11:20 29.12.2018</td>
-                    <td>Smart Лазурный</td>
-                    <td>1000 тг</td>
-                    <td></td>
-                    <td>Отклонено</td>
-                </tr>
-                <tr>
-                    <td>№32467</td>
-                    <td>11:20 29.12.2018</td>
-                    <td>Smart Лазурный</td>
-                    <td>1500 тг −150 тг</td>
-                    <td>1350 тг</td>
-                    <td>Оплачено</td>
-                </tr>
-                <tr>
-                    <td>Комиссия</td>       
-                    <td>11:20 29.12.2018</td>       
-                    <td>−</td>      
-                    <td>−168 тг</td>        
-                    <td></td>       
-                    <td>Комиссия</td>       
-                </tr>
-                <tr>
-                    <td>№32467</td>
-                    <td>11:20 29.12.2018</td>
-                    <td>Smart Лазурный</td>
-                    <td>1500 тг −150 тг</td>
-                    <td>1350 тг</td>
-                    <td>Оплачено</td>
-                </tr>
-                <tr>
-                    <td>№32467</td>
-                    <td>11:20 29.12.2018</td>
-                    <td>Smart Ишим</td>
-                    <td>9 980 тг 9 980 тг</td>
-                    <td>8 982‬ тг</td>
-                    <td>Оплачено</td>
-                </tr>
-            </table>
-        </div>
-    </main>
+    
 </body>
 </html>
