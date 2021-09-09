@@ -143,3 +143,20 @@ body {
 .icon-company {
     color:black;
 }
+.content {
+  width: 1088px;
+  height: 650px;
+  margin: 16px;
+  border:red solid 1px;
+}
+.content-header {
+  width:1088px;
+  height: 38px;
+  border: yellow solid 1px;
+}
+.content-body {
+  width:1088px;
+  height: 595px;
+  border: blue solid 1px;
+  margin-top: 13px;
+}
