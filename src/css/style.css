@@ -164,8 +164,6 @@ body {
 .text-button {
   color:#FFFFFF;
   font-size: 15px;
-  margin: 8px 16px;
-   
 }
 .content-body {
   width:1088px;
@@ -175,6 +173,9 @@ body {
   margin-top: 13px;
 }
 .checks-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 144px;
   height: 38px;
   background: #7840B0;
@@ -188,6 +189,8 @@ body {
   padding-left: 20px;
 }
 .chosen-options{
+  display: flex;
+  align-items: center;
   height:47px;
   border-bottom: #7840B0 solid 2px;
   
@@ -213,6 +216,7 @@ li {
 .first-filter {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 260px;
   height: 40px;
   border: 1px solid #E8E8E8;
@@ -237,6 +241,7 @@ li {
 .third-filter {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 168px;
   height: 40px;
   border: 1px solid #E8E8E8;
@@ -251,6 +256,7 @@ li {
 .fourth-filter {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 168px;
   height: 40px;
   border: 1px solid #E8E8E8;
@@ -265,5 +271,5 @@ li {
 .icon-filter {
   width: 8px;
   height: 6px;
-  margin-left: 19px;
+  margin-right: 17px;
 }
