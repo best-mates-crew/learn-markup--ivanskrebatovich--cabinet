@@ -165,13 +165,15 @@ body {
 .checks-button {
   width: 144px;
   height: 38px;
-  background-color:#7840B0;
+  background: #7840B0;
+  border-radius: 4px;
 }
 .content-options {
   display: flex;
   border: black solid 1px;
   width: 100%;
   height: 49px;
+  
 }
  a {
   text-decoration: none;
@@ -182,3 +184,14 @@ li {
   .content-search {
     display: flex;
   }
+.all-bills {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+}
+.text-button {
+  color:#FFFFFF;
+  font-size: 15px;
+  margin:  8px 16px; 
+}
