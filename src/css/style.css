@@ -154,7 +154,17 @@ body {
   justify-content: space-between;
   width:1088px;
   height: 38px;
-  border: yellow solid 1px;
+}
+.all-bills {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+}
+.text-button {
+  color:#FFFFFF;
+  font-size: 15px;
+  margin:  8px 16px; 
 }
 .content-body {
   width:1088px;
@@ -170,28 +180,46 @@ body {
 }
 .content-options {
   display: flex;
+  align-items: center;
   border: black solid 1px;
-  width: 100%;
+  width: 1068px;
   height: 49px;
+  padding-left: 20px;
+}
+.chosen-options{
+  height:47px;
+  border-bottom: #7840B0 solid 2px;
   
+}
+.link-options {
+  margin-right: 32px;
+
 }
  a {
   text-decoration: none;
+  color: #25262D;
+  font-size: 14px;
+  line-height: 16px;
 }
 li {
   list-style-type: none;
 }
-  .content-search {
-    display: flex;
-  }
-.all-bills {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
+.content-filter {
+  display: flex;
 }
-.text-button {
-  color:#FFFFFF;
-  font-size: 15px;
-  margin:  8px 16px; 
+.first-filter {
+  width: 260px;
+  height: 40px;
+}
+.second-filter {
+  width: 436px;
+  height: 40px;
+}
+.third-filter {
+  width: 168px;
+  height: 40px;
+}
+.fourth-filter {
+  width: 168px;
+  height: 40px;
 }
