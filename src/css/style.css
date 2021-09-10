@@ -147,7 +147,7 @@ body {
   width: 1088px;
   height: 650px;
   margin: 16px;
-  border:red solid 1px;
+  
 }
 .content-header {
   display: flex;
@@ -164,12 +164,14 @@ body {
 .text-button {
   color:#FFFFFF;
   font-size: 15px;
-  margin:  8px 16px; 
+  margin: 8px 16px;
+   
 }
 .content-body {
   width:1088px;
   height: 595px;
-  border: blue solid 1px;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
   margin-top: 13px;
 }
 .checks-button {
@@ -181,7 +183,6 @@ body {
 .content-options {
   display: flex;
   align-items: center;
-  border: black solid 1px;
   width: 1068px;
   height: 49px;
   padding-left: 20px;
@@ -206,20 +207,63 @@ li {
 }
 .content-filter {
   display: flex;
+  justify-content: space-around;
+  padding: 16px;
 }
 .first-filter {
+  display: flex;
+  align-items: center;
   width: 260px;
   height: 40px;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 12px;
 }
 .second-filter {
+  display: flex;
+  align-items: center;
   width: 436px;
   height: 40px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(37, 38, 45, 0.25);
+  padding-left: 12px;
 }
 .third-filter {
+  display: flex;
+  align-items: center;
   width: 168px;
   height: 40px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #E8E8E8;
+  font-size: 14px;
+  line-height: 16px;
+  color: #25262D;
+  padding-left: 12px;
 }
 .fourth-filter {
+  display: flex;
+  align-items: center;
   width: 168px;
   height: 40px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #E8E8E8;
+  font-size: 14px;
+  line-height: 16px;
+  color: #778192;
+  padding-left: 12px;
+}
+.icon-filter {
+  width: 8px;
+  height: 6px;
+  margin-left: 19px;
 }
