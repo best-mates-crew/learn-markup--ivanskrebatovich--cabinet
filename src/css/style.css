@@ -282,9 +282,23 @@ li {
   padding: 16px;
   border-bottom: #E8E8E8 solid 1px;
 }
+.date {
+  display: flex;
+  
+  margin-left: 70px;
+}
+.point-operation {
+  margin-left: 80px;
+}
+.summ {
+  margin-left: 53px;
+}
 .recived {
   margin-left: 58px;
 }
 .status {
   margin-left: 108px;
+}
+.table-triangle {
+  margin-left: 5px;
 }
