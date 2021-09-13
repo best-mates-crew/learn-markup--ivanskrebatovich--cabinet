@@ -217,7 +217,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 260px;
+  width: 258px;
   border: 1px solid #E8E8E8;
   border-radius: 4px;
   font-size: 14px;
@@ -227,7 +227,7 @@ li {
 .second-filter {
   display: flex;
   align-items: center;
-  width: 436px;
+  width: 434px;
   height: 40px;
   border: 1px solid #E8E8E8;
   box-sizing: border-box;
@@ -241,7 +241,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 168px;
+  width: 166px;
   height: 40px;
   border: 1px solid #E8E8E8;
   box-sizing: border-box;
@@ -256,7 +256,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 168px;
+  width: 166px;
   height: 40px;
   border: 1px solid #E8E8E8;
   box-sizing: border-box;
@@ -271,4 +271,20 @@ li {
   width: 8px;
   height: 6px;
   margin-right: 17px;
+}
+.table-header {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  height: 42px;
+  padding: 16px;
+  border-bottom: #E8E8E8 solid 1px;
+}
+.recived {
+  margin-left: 58px;
+}
+.status {
+  margin-left: 108px;
 }
