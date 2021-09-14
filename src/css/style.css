@@ -275,28 +275,33 @@ li {
 .table-header {
   display: flex;
   align-items: center;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   height: 42px;
-  padding: 16px;
+  padding-left: 19px;
+  padding-right: 18px;
   border-bottom: #E8E8E8 solid 1px;
+}
+.bill-number {
+  display: flex;
 }
 .date {
   display: flex;
-  
   margin-left: 70px;
 }
 .point-operation {
   margin-left: 80px;
 }
 .summ {
+  display: flex;
   margin-left: 53px;
 }
 .recived {
   margin-left: 58px;
 }
 .status {
+  display: flex;
   margin-left: 108px;
 }
 .table-triangle {
