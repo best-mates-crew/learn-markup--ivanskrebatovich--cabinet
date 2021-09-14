@@ -315,7 +315,7 @@ li {
   align-items: center;
   font-size: 14px;
   line-height: 18px;
-  height: 42px;
+  height: 54px;
   padding-left: 18px;
   padding-right: 18px;
   border-bottom: #E8E8E8 solid 1px;
@@ -337,18 +337,33 @@ li {
   height: 18px;
   margin-left: 60px;
 }
+.double-column {
+  display: flex;
+  flex-direction: row;
+}
 .fourth-colummn {
+  display: flex;
+  justify-content: end;
   width: 67px;
   height: 18px;
-  margin-left: 92px;
+  margin-left: 75px;
+  border: 1px solid #000;
+}
+.small-text {
+  display: flex;
+  justify-content: end;
+  border: 1px solid #000;
 }
 .fifth-colummn {
-  width: 50px;
+  display: flex;
+  justify-content: end;
+  width: 52px;
   height: 18px;
-  margin-left: 50px;
+  margin-left: 58px;
+  
 }
 .sixth-colummn {
   width: 109px;
   height: 18px;
-  margin-left: 100px;
+  margin-left: 110px;
 }
