@@ -279,16 +279,19 @@ li {
   font-size: 12px;
   line-height: 18px;
   height: 42px;
-  padding-left: 19px;
+  padding-left: 18px;
   padding-right: 18px;
   border-bottom: #E8E8E8 solid 1px;
 }
 .bill-number {
   display: flex;
 }
+.check-box {
+  margin-right: 16px;
+}
 .date {
   display: flex;
-  margin-left: 70px;
+  margin-left: 71px;
 }
 .point-operation {
   margin-left: 80px;
