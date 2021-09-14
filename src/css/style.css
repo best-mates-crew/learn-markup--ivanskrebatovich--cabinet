@@ -310,3 +310,45 @@ li {
 .table-triangle {
   margin-left: 5px;
 }
+.table-row {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  height: 42px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-bottom: #E8E8E8 solid 1px;
+}
+.first-row {
+  display: flex;
+}
+.first-column {
+  width: 66px;
+  height: 18px;
+}
+.second-colummn {
+  width: 109px;
+  height: 18px;
+  margin-left: 76px;
+}
+.third-colummn {
+  width: 108px;
+  height: 18px;
+  margin-left: 60px;
+}
+.fourth-colummn {
+  width: 67px;
+  height: 18px;
+  margin-left: 92px;
+}
+.fifth-colummn {
+  width: 50px;
+  height: 18px;
+  margin-left: 50px;
+}
+.sixth-colummn {
+  width: 109px;
+  height: 18px;
+  margin-left: 100px;
+}
