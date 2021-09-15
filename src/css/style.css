@@ -287,6 +287,8 @@ li {
   display: flex;
 }
 .check-box {
+  display: flex;
+  align-self: center;
   margin-right: 16px;
 }
 .date {
@@ -324,44 +326,49 @@ li {
   display: flex;
 }
 .first-column {
+  display: flex;
+  align-self: center;
   width: 66px;
   height: 18px;
 }
 .second-column {
+  display: flex;
+  align-self: center;
   width: 109px;
   height: 18px;
   margin-left: 76px;
 }
 .third-column {
+  display: flex;
+  align-self: center;
   width: 108px;
   height: 18px;
   margin-left: 60px;
 }
 .double-column {
-  display: inline-block;
-  width: 64px;
-  border: black solid 1px;
-  margin-left: 100px;
-}
-.double-column:nth-child(){
-  text-align: right;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  height: 32px;
+  width: 67px;
+  margin-left: 75px;
+  
 }
 .fourth-colum {
   display: flex;
   justify-content: end;
-
-  width: 67px;
-  height: 18px;
-  margin-left: 75px;
-  border: 1px solid #000;
 }
 .small-text {
   display: flex;
   justify-content: end;
-  border: 1px solid #000;
+  font-size: 11px;
+  line-height: 14px;
+  color: #25262D;
+  opacity: 0.5;
 }
 .fifth-column{
   display: flex;
+  align-self: center;
   justify-content: end;
   width: 52px;
   height: 18px;
@@ -369,6 +376,8 @@ li {
   
 }
 .sixth-column {
+  display: flex;
+  align-self: center;
   width: 109px;
   height: 18px;
   margin-left: 110px;
